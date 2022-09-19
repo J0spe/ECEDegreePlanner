@@ -1,0 +1,56 @@
+{
+    "cpe": 
+    {
+        "softwaresystems":
+        {
+            "name": "Software Systems",
+            "des" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "courses": 
+            [
+                ["ece1004"],
+                ["ece2024","ece2514", "ece2544"],
+                ["ece2214", "ece2564", "ece2714", "ece2804"],
+                ["ece3504", "ece3514"],
+                ["ece3574"],
+                ["ece4805", "ece4525", "ece4574", "cs3214"],
+                ["ece4806", "ece4524", "ece4550"]
+                
+            ]
+        },
+        "machinelearning":
+        {
+            "name": "Machine Learning",
+            "des" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "courses": 
+            [
+                ["ece1004"],
+                ["ece2024","ece2514", "ece2544"],
+                ["ece2214", "ece2564", "ece2714", "ece2804"],
+                ["ece3504", "ece3514"],
+                ["ece3574"],
+                ["ece4805", "ece4525", "ece4580", "ece4424", "ece4554"],
+                ["ece4806", "ece4524"]
+            ]
+
+        }
+
+    },
+    "ee":
+    {
+        "powersystems":
+        {
+            "name": "Power Systems",
+            "des":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "courses": 
+            [
+                ["ece1004"],
+                ["ece2024","ece2514", "ece2544"],
+                ["ece2214", "ece2564", "ece2714", "ece2804"],
+                ["ece3004", "ece3074", "ece3105"],
+                ["ece3204", "ece3304", "ece3354"],
+                ["ece4805", "ece4224", "ece4334", "ece3704"],
+                ["ece4806"]
+            ]
+        }
+    }
+}

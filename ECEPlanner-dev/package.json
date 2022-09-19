@@ -1,0 +1,11 @@
+
+{
+    "name": "eceplanner",
+    "version": "1.0.0",
+    "description": "ECEPlanner tool",
+    "scripts": {
+        "postinstall": "(cd server && npm install); (cd client && npm install);"
+    },
+    "author": "Walid Zeineldin",
+    "license": "ISC"
+  }

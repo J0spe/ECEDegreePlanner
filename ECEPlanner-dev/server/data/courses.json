@@ -1,0 +1,375 @@
+{
+    "ece1004":
+    {
+        "number":"ECE 1004",
+        "name": "Introduction to ECE Concepts",
+        "des": "Introduction to topics that span the field of electrical and computer engineering (ECE). Content presented through the lens of application with accompanying hands-on exercises. Basics of circuits, op-amps, power supplies, computer logic, system decomposition, and coding. Modeling and application of engineering professionalism. Exploration of ECE in society.",
+        "pre": ["ENGE 1215 or ECE 1414"],
+        "co" : [],
+        "minGrade": "C",
+        "offering": ["Fall", "Spring", "Summer"]
+
+    },
+    "ece2024":
+    {
+        "number":"ECE 2024",
+        "name": "Circuits and Devices",
+        "des": "Analysis and design of passive and active circuits under Direct Current (DC), Alternating Current (AC), and switched excitation. Linear circuit analysis techniques for various circuit topologies. Expressing the transient response of first- and second-order linear circuits using time-domain methods. Calculating the AC steady-state response of linear circuits using phasors and immittances. Characterizing the frequency response of linear circuits. Determining operating point and small signal response of non-linear circuits containing diodes and bipolar transistors. Projects demonstrating circuit design processes adhering to professional practices.",
+        "pre": ["ECE 1004", "MATH 2114 or MATH 2114H or MATH 2405H"],
+        "co" : ["ECE 2514","ECE 2514", "ECE 2544", "MATH 2214", "PHYS 2306"],
+        "minGrade": "C",
+        "offering": ["Fall", "Spring"]
+    },
+    "ece2214":
+    {
+        "number":"ECE 2214",
+        "name": "Physical Electronics",
+        "des": "Fundamentals of electrostatics and magnetostatics, transmission lines, impedance matching networks, electromagnetic (EM) waves, and basic operating principles of diodes and metal-oxide semiconductor field-effect transistors (MOSFETs). Designing MOSFET biasing, and single-ended and differential amplifier circuits. Basic operating principles of complementary metal-oxide semiconductor (CMOS) device and its application as a digital inverter. Electronic circuit design adhering to professional and ethical practices.",
+        "pre": ["ECE 2024"],
+        "co" : [],
+        "minGrade": "C",
+        "offering": ["Fall", "Spring", "Summer"]
+
+    },
+    "ece2514":
+    {
+        "number":"ECE 2514",
+        "name": "Computational Engineering",
+        "des": "Software development processes for electrical and computer engineering applications. Modeling, simulation, data analysis, and visualization. Computing abstractions and the use of application programming interfaces. Software design and implementation using a procedural, class-based language. Integrated code development and testing. Team-based development of autonomous system applications reinforcing course topics.",
+        "pre": ["ECE 1004"],
+        "co" : ["ECE 2024", "ECE 2544"],
+        "minGrade": "C",
+        "offering": ["Fall", "Spring"]
+
+    },
+    "ece2544":
+    {
+        "number":"ECE 2544",
+        "name": "Fundamentals of Digital Systems",
+        "des": "Design and analysis of digital systems. Information representations and computer arithmetic. Switch and gate design within digital logic. Combinational logic analysis and synthesis, Hardware Description Languages (HDL), and hierarchical design. Finite-state machines, synchronous sequential logic analysis and design. Hardware specification and documentation. Register transfer level architectures, computer organization, memories, and digital interfacing. Instruction set architecture and assembly language programming. Emphasis on the relationship between software and hardware.",
+        "pre": ["ECE 1004"],
+        "co" : ["ECE 2024", "ECE 2514"],
+        "minGrade": "C",
+        "offering": ["Fall", "Spring"]
+
+    },
+    "ece2564":
+    {
+        "number":"ECE 2564",
+        "name": "Embedded Systems",
+        "des": "Use of microcontroller-based embedded systems as a tool to address digital control and sensing in engineering applications. Modern methodologies for programming microcontrollers including programming under real-time and resource design constraints. Finite-state machine modeling and software implementation. Event-driven programming including polling-based and interrupt-driven input/output. Integration of sensors and actuators, use of standard digital and analog interfaces, and use of hardware peripherals in microcontroller architectures. Design of hardware abstraction layers and software architectures for embedded systems. Integration of hardware peripherals into real-time, software applications. Software toolchains for embedded systems, use of debugger and development and testing methodologies. Professional project management and version control.",
+        "pre": ["ECE 2514", "ECE 2544"],
+        "co" : [],
+        "minGrade": "C",
+        "offering": ["Fall", "Spring", "Summer"]
+
+    },
+    "ece2714":
+    {
+        "number":"ECE 2714",
+        "name": "Signals and Systems",
+        "des": "Mathematical methods for the analysis and design of continuous and discrete linear, time-invariant systems. Representation of signals using time-domain and frequency-domain methods and the application of Fourier transforms to linear system design and analysis. Descriptions of systems as signal transformations using block diagrams, differential equations, difference equations, convolution, and transfer functions. Applications to signal filtering, measurement, and control of the physical devices. Formal project documentation adhering to professional practices.",
+        "pre": ["ECE 2024", "ECE 2514", "ECE 2544", "MATH 2214 or MATH2214H or MATH2406H"],
+        "co" : ["ECE 2564"],
+        "minGrade": "C",
+        "offering": ["Fall", "Spring", "Summer"]
+
+    },
+    "ece2804":
+    {
+        "number":"ECE 2804",
+        "name": "Integrated Design Project",
+        "des": "Design, implementation, testing, and validation of a hardware and software solution to an open-ended engineering problem integrating both analog and digital components. Using industrial-caliber test and measurement equipment including: oscilloscopes, function generators, power supplies, and digital multi-meters. Technical documentation and oral presentation of design process and solution. Overview of the scope of the electrical and computer engineering profession and issues related to its societal impact and ethical considerations.",
+        "pre": ["ECE 2024", "ECE 2514", "ECE 2544"],
+        "co" : ["ECE 2214", "ECE 2564", "ECE 2714"],
+        "minGrade": "C",
+        "offering": ["Fall", "Spring", "Summer"]
+
+    },
+    "ece3004":
+    {
+        "number":"ECE 3004",
+        "name": "AC Circuit Analysis",
+        "des": "Application of the basic laws and techniques of circuit analysis to AC circuits. Complex numbers and algebra with an emphasis on phasor representation of circuits. Calculation of the frequency response of circuits with R, L, and C components, independent sources, controlled sources, and operational amplifiers. Analysis of AC steady-state circuits and determination of average power. Magnetically coupled circuits. Laplace and Fourier transforms. Representation of circuits by two-port models. C- or better in prerequisites.",
+        "pre": ["ECE 2704 or ECE 2714, ECE 2804"],
+        "co" : [],
+        "minGrade": "C-",
+        "offering": ["Fall", "Spring", "Summer"]
+
+    },
+    "ece3074":
+    {
+        "number":"ECE 3074",
+        "name": "AC Circuit Analysis Laboratory",
+        "des": "Construction, analysis, and characterization of circuits with student-owned Lab-in-a-Box system. Experiments include: sinusoids and phasors including impedance, admittance, and Kirchhoffs laws; sinusoidal steady- state including node and mesh analysis, Thevenin and Norton equivalent, and op amps; ac power analysis including instantaneous and average power, power factor, and complex power; magnetically coupled circuits including mutual inductance, energy in a coupled circuit, and transformers; frequency response including transfer functions, Bode plots, resonance, and passive and active filters; and two-port circuits. A C- or better is required for all prerequisites.",
+        "pre": ["ECE 2074 or ECE 2804"],
+        "co" : ["ECE 3004"],
+        "minGrade": "None",
+        "offering": ["Fall", "Spring"]
+
+    },
+    "ece3105":
+    {
+        "number":"ECE 3105",
+        "name": "Electromagnetic Fields",
+        "des": "Maxwells equations and their application to engineering problems. ECE 3105: transmission lines, introductory electrostatics, introductory magnetostatics, Faradays Law, properties of uniform plane waves. ECE 3106: electrostatics and magnetostatics, Maxwells Equations, wave propagation in uniform media, the reflection and transmission of plane waves, guided waves, radiation. A C- or better is required in the prerequisites.",
+        "pre": ["ECE 2004 or ECE 2214, ECE 2804", "MATH 2204 or MATH 2204H or MATH 2406H", "PHYS 2306"],
+        "co" : ["ECE 2514"],
+        "minGrade": "C-",
+        "offering": ["Fall", "Spring", "Summer"]
+
+    },
+    "ece3106":
+    {
+        "number":"ECE 3106",
+        "name": "Electromagnetic Fields",
+        "des": "Maxwells equations and their application to engineering problems. ECE 3105: transmission lines, introductory electrostatics, introductory magnetostatics, Faradays Law, properties of uniform plane waves. ECE 3106: electrostatics and magnetostatics, Maxwells Equations, wave propagation in uniform media, the reflection and transmission of plane waves, guided waves, radiation.",
+        "pre": ["ECE 3105"],
+        "co" : [],
+        "minGrade": "C-",
+        "offering": ["Fall", "Spring"]
+
+    },
+    "ece3204":
+    {
+        "number":"ECE 3204",
+        "name": "Analog Electronics",
+        "des": "Small signal modeling of transistors. Basic architecture and functionality of linear amplifiers including transistor biasing circuits, current sources, differential amplifier, common emitter amplifier, common source amplifier, emitter follower, source follower, common base amplifier, and common gate amplifier. Frequency response of single stage and multistage amplifiers.",
+        "pre": ["ECE 2204, ECE 2704 or ECE 2214, ECE 2714, ECE 2804"],
+        "co" : [],
+        "minGrade": "C-",
+        "offering": ["Fall", "Spring"]
+
+    },
+    "cs3214":
+    {
+        "number":"CS 3214",
+        "name": "Computer Systems",
+        "des": "Introduction to computer systems as they are relevant to application programmers today, with emphasis on operating system principles. Operating system design and architectures; processes; threads, synchronization techniques, deadlock; CPU scheduling; system call interfaces, system level I/O and file management; shell programming; separate compilation, loading and linking; inter-process communication (IPC); virtual and physical memory management and garbage collection; network protocols and programming; virtualization; performance analysis and optimization.",
+        "pre": ["CS 2506, CS 2114 or ECE 2564, ECE 3574"],
+        "co" : [],
+        "minGrade": "None",
+        "offering": ["Fall", "Spring"]
+
+    },
+    "ece3274":
+    {
+        "number":"ECE 3274",
+        "name": "Electronic Circuits Lab II",
+        "des": "Design, build, and test amplifiers and other electronic circuits to meet specifications. Bipolar and field-effect transistors, diodes, integrated circuits such as operational amplifiers, and passive components are used. Gain, bandwidth, input and output impedance, positive and negative feedback, and circuit stability are implemented in the designs. Digital oscilloscopes, ammeters, voltmeters, function generators, and power supplies are used. A grade of C- or better is required in all pre-requisite courses.",
+        "pre": ["ECE 2274 or ECE 2804", "ECE 3074"],
+        "co" : ["ECE 3204"],
+        "minGrade": "None",
+        "offering": ["Fall", "Spring"]
+
+    },
+    "ece3304":
+    {
+        "number":"ECE 3304",
+        "name": "Introduction to Power Systems",
+        "des": "Basic concepts of AC systems, single-phase and three-phase networks, electric power generation, transformers, transmission lines, electric machinery and the use of power.",
+        "pre": ["ECE 3004"],
+        "co" : [],
+        "minGrade": "C-",
+        "offering": ["Fall", "Spring"]
+
+    },
+    "ece3354":
+    {
+        "number":"ECE 3354",
+        "name": "Power Laboratory",
+        "des": "Laboratory experiments based on principles of electric power engineering.",
+        "pre": [],
+        "co" : ["ECE 3304"],
+        "minGrade": "None",
+        "offering": ["Fall", "Spring"]
+
+    },
+    "ece3504":
+    {
+        "number":"ECE 3504",
+        "name": "Principles Comp Architecture",
+        "des": "Instruction formats and construction. Addressing modes. Memory hierarchy (cache, main memory and secondary memory) operation and performance. Simple pipelines. Basic performance analysis. Simple Operating System (OS) functions, particularly as they relate to hardware. Virtual memory. Computer Input/Output (I/O) concepts, including interrupt and Direct Memory Access (DMA) mechanisms. Intercomputer communication concepts. Processor design.",
+        "pre": ["ECE 2804"],
+        "co" : [],
+        "minGrade": "None",
+        "offering": ["Fall", "Spring"]
+
+    },
+    "ece3514":
+    {
+        "number":"ECE 3514",
+        "name": "Data Structures & Algorithms",
+        "des": "Introduction of fundamental data structures, algorithms, and abstract data types. Data structures, arrays, linked lists, stacks, queues, and trees. Algorithms for manipulation, sorting, searching. Tree traversals. Implementation of data structures and algorithms in C++ using good design practices.",
+        "pre": ["ECE 2804"],
+        "co" : [],
+        "minGrade": "C-",
+        "offering": ["Fall", "Spring"]
+
+    },
+    "ece3544":
+    {
+        "number":"ECE 3544",
+        "name": "Digital Design I",
+        "des": "Design techniques for combinational and sequential logic. Design of digital circuits using standard integrated circuit chips and programmable logic devices. Computer simulation will be used to validate designs. Prototypes will be constructed to demonstrate design functionality.",
+        "pre": ["ECE 2504 or ECE 2544, ECE 2804"],
+        "co" : [],
+        "minGrade": "None",
+        "offering": ["Fall", "Spring"]
+
+    },
+    "ece3574":
+    {
+        "number":"ECE 3574",
+        "name": "Applied Software Design",
+        "des": "An introduction to applied software design methods for use in the writing of efficient, reusable, and modular C++ programs. Introduces the use of the following: classes, inheritance, and polymorphism; design patterns; high-level programming techniques using libraries, generics, and containers; widgets, models, and views; software frameworks for embedded systems; and advanced techniques ranging from multi-threading to reflective programming.",
+        "pre": ["ECE 2574 or ECE 3514", "ECE 2804"],
+        "co" : [],
+        "minGrade": "C-",
+        "offering": ["Fall", "Spring", "Summer"]
+
+    },
+    "ece3614":
+    {
+        "number":"ECE 3614",
+        "name": "Intro Communication Systems",
+        "des": "Analysis and design of communication systems with an emphasis on digital communications based on time and frequency domain analysis. Fourier transform techniques, linear systems, and filtering are reviewed. Power and energy spectral density of communication signals. Sampling and quantization of analog signals. Baseband and binary bandpass digital modulation including line coding, pulse shaping, and both pulse and carrier modulation techniques. Wireless communication system concepts including link budgets and multiple access. Transmitter and receiver design concepts. Signal-to-noise ratio, bit error rate, and their relationship. Analog techniques such as Amplitude Modulation (AM) and Frequency Modulation (FM) radio will be reviewed for conceptual and comparative purposes.",
+        "pre": ["ECE 2704 or ECE 2804, ECE 2714", "STAT 4714"],
+        "co" : [],
+        "minGrade": "None",
+        "offering": ["Fall", "Spring"]
+
+    },
+    "ece3704":
+    {
+        "number":"ECE 3704",
+        "name": "Continuous & Discrete System Theory",
+        "des": "Continuous- and discrete-time system theory. Block diagrams, feedback, and stability theory. Continuous-time stability, differential equations, Laplace-transforms, transfer functions. Discrete-time stability, difference equations, Z-transforms. Transfer functions and frequency response. Sampling of continuous systems and an introduction to control and filter design. Hands-on projects to illustrate and integrate the various continuous- and discrete-time concepts and tools.",
+        "pre": ["ECE 2714"],
+        "co" : [],
+        "minGrade": "None",
+        "offering": ["Fall", "Spring"]
+
+    },
+    "ece4224":
+    {
+        "number":"ECE 4224",
+        "name": "Power Electronics",
+        "des": "Switching power converter operation and design; modeling of power converters; power components including power semiconductor devices, inductors, and transformers; control of power converters; select power converter topology for applications such as renewable energy, electric transportation, and telecommunications.",
+        "pre": ["ECE 3204", "ECE 3304"],
+        "co" : [],
+        "minGrade": "None",
+        "offering": ["Fall"]
+
+    },
+    "ece4334":
+    {
+        "number":"ECE 4334",
+        "name": "Power System Analysis & Control",
+        "des": "Development of methods for power analysis and control. An analysis and design of systems for steady state, transient, and dynamic conditions. Digital solutions emphasized.",
+        "pre": ["ECE 3304"],
+        "co" : [],
+        "minGrade": "None",
+        "offering": ["Fall"]
+
+    },
+    "ece4424":
+    {
+        "number":"ECE 4424",
+        "name": "Machine Learning",
+        "des": "Algorithms and principles involved in machine learning; focus on perception problems arising in computer vision, natural language processing and robotics; fundamentals of representing uncertainty, learning from data, supervised learning, ensemble methods, unsupervised learning, structured models, learning theory and reinforcement learning; design and analysis of machine perception systems; design and implementation of a technical project applied to real-world datasets (images, text, robotics).",
+        "pre": ["ECE 2574 or ECE 3514 or CS3214" , "STAT 4604 or STAT 4705 or STAT 4714"],
+        "co" : [],
+        "minGrade": "None",
+        "offering": ["Fall", "Spring", "Summer"]
+
+    },
+    "ece4524":
+    {
+        "number":"ECE 4524",
+        "name": "Artificial Intelligence and Engineering Applications",
+        "des": "Problem solving methods; problem spaces; search techniques; knowledge representation; programming languages for AI; games; predicate logic; knowledge-based systems; machine learning; planning techniques; reactive systems; artificial neural networks; natural language understanding; computer vision; robotics.",
+        "pre": ["ECE 2574 or ECE 2514", "STAT 4714"],
+        "co" : [],
+        "minGrade": "None",
+        "offering": ["Fall", "Spring"]
+        
+    },
+    "ece4525":
+    {
+        "number":"ECE 4525",
+        "name": "Video Game Design and Eng",
+        "des": "4525: Fundamental concepts in the development and engineering of modern 2-D and 3-D real-time interactive computer video games. Game design and engineering principles, game architecture, game mechanics and interaction, computer graphics, strategy, artificial intelligence (AI), optimization, play testing and fuzzy logic are included. 4526: Advanced concepts in the development and engineering of modern 2-D and 3-D real-time interactive computer video systems. Topics include non-player character (NPC) behavior learning, search and planning, player modeling, procedural content generation, AI-assisted game design.",
+        "pre": ["ECE 3574"],
+        "co" : [],
+        "minGrade": "None",
+        "offering": ["Fall"]
+
+    },
+    "ece4550":
+    {
+        "number":"ECE 4550",
+        "name": "Real-Time Systems",
+        "des": "Theory, algorithmic and protocol concepts, mechanisms, and implementations of real-time computer systems. Introduction to real-time systems, real-time scheduling, real-time synchronization, real-time operating system kernels, and real-time resource management algorithms (e.g., scheduling, synchronization), their implementations in production operating system kernels, experimental studies of those implementations, and real-time application development.",
+        "pre": ["ECE 3574 or CS 3214"],
+        "co" : [],
+        "minGrade": "None",
+        "offering": ["Spring"]
+
+    },
+    "ece4554":
+    {
+        "number":"ECE 4554",
+        "name": "Intro to Computer Vision",
+        "des": "Techniques for automated analysis of images and videos. Image formation, detecting features in images, segmenting or grouping image regions and image features, multiple view geometry, object instance and category recognition in images and video processing.",
+        "pre": ["ECE 3574", "STAT 4705 or STAT 4714"],
+        "co" : [],
+        "minGrade": "None",
+        "offering": ["Fall"]
+
+    },
+    "ece4574":
+    {
+        "number":"ECE 4574",
+        "name": "Large-Scale Software Development for Engineering Systems",
+        "des": "Large-scale software implementations of the hierarchy of engineering analysis, design, and decision evaluation. Computer-aided engineering programs with state-of-the-art computer tools and methods. Operator overloading, dynamic polymorphism, graphical user interfaces, generic programming, dynamic link libraries, and multiple threads.",
+        "pre": ["ECE 3574"],
+        "co" : [],
+        "minGrade": "None",
+        "offering": ["Fall"]
+
+    },
+    "ece4580":
+    {
+        "number":"ECE 4580",
+        "name": "Digtial Image Processing",
+        "des": "This course provides an introduction to basic concepts, methodologies and algorithms of digital image processing focusing on the two major problems concerned with digital images: (1) image analysis and object restoration for easier interpretation of images, and (2) image analysis and object recognition. Some advanced image processing techniques (e.g., wavelet and multiresolution processing) will also be studied in this course. The primary goal of this course is to lay a solid foundation for students to study advanced image analysis topics such as computer vision systems, biomedical image analysis, and multimedia processing & retrieval.",
+        "pre": ["ECE 2704 or ECE 2714, ECE 2804"],
+        "co" : [],
+        "minGrade": "None",
+        "offering": ["Fall"]
+
+    },
+    "ece4805":
+    {
+        "number":"ECE 4805",
+        "name": "Senior Design Project",
+        "des": "Industry-like two-semester, team-based major design experience applying knowledge and skills acquired in previous coursework. Design and implement solutions to meet multiple realistic constraints; design to incorporate appropriate engineering standards. A specific, complex engineering design problem is taken from problem definition to product realization and testing. Within the design process, topics include written/oral communication, discourse, ethical reasoning, professional development, project management, and working within a team. 4805: Identify, formulate, and define engineering problem. Generate and select design alternatives. Apply design and analysis methods, from previous courses, to develop, evaluate, and communicate detailed project design. 4806: Implement and refine project design from ECE 4805. Test, analyze, document, and deliver the resulting project outcomes.",
+        "pre": ["ECE 2804", "ECE 3004 or ECE 3504", "ECE 3105 or ECE 3514", "ECE 3106 or ECE3134 or ECE 3204 or ECE 3214 or ECE 3304 or ECE 3544 or ECE 3564 or ECE 3574 or ECE 3614 or ECE 3704 or ECE 4205 or ECE 4234 or ECE 4354 or ECE 4424 or ECE 4524 or ECE 4540 or ECE 4580 or ECE 4704"],
+        "co" : [],
+        "minGrade": "C-",
+        "offering": ["Fall", "Spring"]
+
+    },
+    "ece4806":
+    {
+        "number":"ECE 4806",
+        "name": "Senior Design Project",
+        "des": "Industry-like two-semester, team-based major design experience applying knowledge and skills acquired in previous coursework. Design and implement solutions to meet multiple realistic constraints; design to incorporate appropriate engineering standards. A specific, complex engineering design problem is taken from problem definition to product realization and testing. Within the design process, topics include written/oral communication, discourse, ethical reasoning, professional development, project management, and working within a team. 4805: Identify, formulate, and define engineering problem. Generate and select design alternatives. Apply design and analysis methods, from previous courses, to develop, evaluate, and communicate detailed project design. 4806: Implement and refine project design from ECE 4805. Test, analyze, document, and deliver the resulting project outcomes.",
+        "pre": ["ECE 4805"],
+        "co" : [],
+        "minGrade": "None",
+        "offering": ["Fall", "Spring"]
+
+    }
+}
